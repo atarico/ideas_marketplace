@@ -1,10 +1,9 @@
 .pie-pagina {
   width: 100%;
-  background-color: #0a141d;
+  background-color: #0d2033;
 }
 
 .pie-pagina .grupo-1 {
-  border: 2px solid red;
   width: 100%;
   padding: 2rem;
   display: flex;
@@ -18,21 +17,23 @@
   width: 150px;
 }
 
-.pie-pagina .grupo-1 .box h2 {
-  color: #fff;
-  margin: 2rem 0 1rem 0;
-  font-size: 1.2em;
-  text-align: center;
-}
-
 .pie-pagina .grupo-1 .box p {
   color: #efefef;
   text-align: center;
 }
-.pie-pagina .grupo-1 .box ul,
-a {
-  color: #0fd3ff;
+
+.pie-pagina .grupo-1 h2 {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 1rem 0 0.5rem 0;
   text-align: center;
+}
+
+.pie-pagina .grupo-1 .box ul a {
+  color: #0fd3ff;
+  font-size: 0.8em;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .pie-pagina .grupo-1 .red-social a {
@@ -43,7 +44,7 @@ a {
   line-height: 45px;
   color: #fff;
   margin-right: 5px;
-  background-color: #0d2033;
+  background-color: #0a141d;
   text-align: center;
   transition: all 300ms ease;
 }
@@ -53,7 +54,7 @@ a {
 }
 
 .pie-pagina .grupo-2 {
-  background-color: #0a1a2a;
+  background-color: #0d2033;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
@@ -75,15 +76,27 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .pie-pagina .grupo-1 .box ul,
+  a {
+    flex-direction: column;
+  }
   .redes {
     width: 40%;
     text-align: center;
   }
   .slogan {
     width: 40%;
+    text-align: center;
+  }
+  .pie-pagina .grupo-1 h2 {
+    margin-top: 0;
   }
   .links {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+  }
+
+  .pie-pagina .grupo-1 .red-social a {
+    font-size: 1em;
   }
 }
