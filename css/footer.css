@@ -35,9 +35,13 @@
   font-size: 0.8em;
 }
 
-.pie-pagina .grupo-1 .box ul {
+/* .pie-pagina .grupo-1 .box ul {
   display: flex;
   gap: 0.5rem;
+} */
+.links {
+  display: flex;
+  gap: 1rem;
 }
 
 .pie-pagina .grupo-1 .red-social a {
@@ -80,10 +84,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .pie-pagina .grupo-1 .box ul,
-  a {
-    flex-direction: column;
-  }
+
   .redes {
     width: 40%;
     text-align: center;
@@ -94,10 +95,6 @@
   }
   .pie-pagina .grupo-1 h2 {
     margin-top: 0;
-  }
-  .links {
-    display: flex;
-    gap: 1rem;
   }
 
   .pie-pagina .grupo-1 .red-social a {
