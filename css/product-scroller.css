@@ -15,6 +15,7 @@
 .container .items {
   border-radius: 8px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .items img {

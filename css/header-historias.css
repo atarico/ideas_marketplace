@@ -198,9 +198,7 @@ header {
     align-items: center;
     margin-top: 2rem;
   }
-  li {
-    list-style: none;
-  }
+
   a {
     color: #e0e0e0;
     text-transform: uppercase;
@@ -225,6 +223,7 @@ header {
   }
   li {
     margin-right: 1rem;
+    cursor: pointer;
   }
   .toggle__li {
     margin: 0;

@@ -15,6 +15,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+i {
+  cursor: pointer;
+}
 
 :root {
   --blanco: #e0e0e0;
