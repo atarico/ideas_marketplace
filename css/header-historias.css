@@ -189,8 +189,12 @@ header {
     display: none;
   }
   .header__search {
+    padding: 8px 12px;
     width: 60%;
     justify-content: space-between;
+  }
+  .button__navbar {
+    padding: 8px 12px;
   }
   .listas {
     display: flex;

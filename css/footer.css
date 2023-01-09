@@ -33,6 +33,9 @@
 .pie-pagina .grupo-1 .box ul a {
   color: #0fd3ff;
   font-size: 0.8em;
+}
+
+.pie-pagina .grupo-1 .box ul {
   display: flex;
   gap: 0.5rem;
 }
