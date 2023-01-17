@@ -35,13 +35,9 @@
   font-size: 0.8em;
 }
 
-/* .pie-pagina .grupo-1 .box ul {
+.pie-pagina .grupo-1 .box ul {
   display: flex;
   gap: 0.5rem;
-} */
-.links {
-  display: flex;
-  gap: 1rem;
 }
 
 .pie-pagina .grupo-1 .red-social a {
@@ -83,6 +79,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .pie-pagina .grupo-1 .box ul {
+    flex-direction: column;
+  }
+  .links {
+    display: flex;
+    gap: 1rem;
   }
 
   .redes {
