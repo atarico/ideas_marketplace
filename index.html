@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- css -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- font awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -46,7 +54,7 @@
       <nav>
         <ul class="categorias listas">
           <li class="toggle__botton">
-            <a href="#">categoría</a>
+            <a href="#">categorías</a>
             <ul class="toggle">
               <li class="toggle__li">
                 <a href="#" class="toggle__a">una categoría</a>
@@ -70,11 +78,31 @@
           </li>
           <li><a href="#">ofertas</a></li>
           <li><a href="#">historial</a></li>
-          <li><a href="#">vender</a></li>
+          <li class="toggle__botton">
+            <a href="#">vender</a>
+            <ul class="toggle">
+              <li class="toggle__li">
+                <a href="#" class="toggle__a">vender producto</a>
+              </li>
+              <li class="toggle__li">
+                <a href="#" class="toggle__a">editar producto</a>
+              </li>
+            </ul>
+          </li>
           <li><a href="#">ayuda</a></li>
         </ul>
         <ul class="usuario listas">
-          <li><a href="#">mi cuenta</a></li>
+          <li class="toggle__botton">
+            <a href="#">Mi cuenta</a>
+            <ul class="toggle">
+              <li class="toggle__li">
+                <a href="#" class="toggle__a">Login</a>
+              </li>
+              <li class="toggle__li">
+                <a href="#" class="toggle__a">Create Account</a>
+              </li>
+            </ul>
+          </li>
           <li><a href="#">mis likes</a></li>
           <li><a href="#">mis compras</a></li>
         </ul>
@@ -90,68 +118,73 @@
       </div>
       <section class="news__container">
         <article class="news">
-          <h3 class="news-title">Ofertas</h3>
+          <h3 class="news-title">OFERTAS</h3>
           <div class="scroller">
-            <a
-              href="https://deporteshoy.com.ar/2022/05/belgrano-con-autoridad-paso-a-la-otra-fase-de-la-liga-federal/"
-              class="scroller-item"
-              target="_blank"
+            <a href="#" class="scroller-item" target="_blank"
               ><img
                 src="./imgs/productos/img-macbook-pro-2019.jpg"
                 alt="Noticias de basquet"
                 class="historias__img"
               />
+              <div class="capa">
+                <h6>computación</h6>
+              </div>
             </a>
 
-            <a
-              href="https://deporteshoy.com.ar/2022/05/belgrano-dueno-del-clasico-en-rodeo-ajeno/"
-              class="scroller-item"
-              target="_blank"
+            <a href="#" class="scroller-item" target="_blank"
               ><img
                 src="./imgs/productos/img-macbook-pro-2019.jpg"
                 alt="Noticias de fútbol"
                 class="historias__img"
-            /></a>
+              />
+              <div class="capa">
+                <h6>gaming</h6>
+              </div>
+            </a>
 
-            <a
-              href="https://deporteshoy.com.ar/2022/04/la-fusion-le-gano-a-capiba-y-es-puntero/"
-              class="scroller-item"
-              target="_blank"
+            <a href="#" class="scroller-item" target="_blank"
               ><img
                 src="./imgs/productos/img-macbook-pro-2019.jpg"
                 alt="Noticias de rugby"
                 class="historias__img"
-            /></a>
+              />
+              <div class="capa">
+                <h6>laptops</h6>
+              </div>
+            </a>
 
-            <a
-              href="https://deporteshoy.com.ar/2022/04/este-sabado-tras-el-receso-de-pascuas-se-reanuda-el-hockey/"
-              class="scroller-item"
-              target="_blank"
+            <a href="#" class="scroller-item" target="_blank"
               ><img
                 src="./imgs/productos/img-macbook-pro-2019.jpg"
                 alt="Noticias de hockey"
                 class="historias__img"
-            /></a>
+              />
+              <div class="capa">
+                <h6>muebles</h6>
+              </div>
+            </a>
 
-            <a
-              href="https://deporteshoy.com.ar/2022/05/la-quinta-fecha-del-voley-de-la-anv/"
-              class="scroller-item"
-              target="_blank"
+            <a href="#" class="scroller-item" target="_blank"
               ><img
                 src="./imgs/productos/img-macbook-pro-2019.jpg"
                 alt="Noticias de voley"
                 class="historias__img"
-            /></a>
+              />
+              <div class="capa">
+                <h6>electro</h6>
+              </div>
+            </a>
 
-            <a
-              href="https://deporteshoy.com.ar/2022/05/sol-bermudez-competira-en-natacion-en-mar-del-plata/"
-              class="scroller-item"
-              target="_blank"
+            <a href="#" class="scroller-item" target="_blank"
               ><img
                 src="./imgs/productos/img-macbook-pro-2019.jpg"
                 alt="Noticias de natación"
                 class="historias__img"
-            /></a>
+              />
+              <div class="capa">
+                <h6>deco</h6>
+              </div>
+            </a>
           </div>
         </article>
       </section>

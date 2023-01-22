@@ -10,9 +10,9 @@ header {
   justify-content: space-around;
   align-items: center;
   box-shadow: 0 4px 4px #0e0e0e;
-  position: fixed;
+  /*   position: fixed;
   top: 0;
-  right: 0;
+  right: 0; */
 }
 .header__container {
   display: flex;
@@ -81,12 +81,12 @@ header {
 }
 
 .toggle {
-  box-shadow: 2px 2px 15px var(--lineas);
-  background-color: #030724;
-  width: 12rem;
   position: absolute;
-  top: 1.2rem;
-  /* display: none; */
+  display: none;
+  width: 12rem;
+  background-color: #030724ef;
+  box-shadow: 2px 2px 15px var(--lineas);
+  top: 1.6rem;
 }
 
 .toggle__botton:hover .toggle {
@@ -101,7 +101,7 @@ header {
   border-bottom: 1px solid #e0e0e0;
 }
 .toggle__li:hover {
-  background-color: #000c48;
+  background-color: #00105e;
 }
 
 /* ============================== banner ================================== */
@@ -125,6 +125,8 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
+  color: var(--blanco);
+  letter-spacing: 1px;
 }
 
 .news {
@@ -133,13 +135,13 @@ header {
   text-align: center;
 }
 .scroller {
-  height: 120px;
+  height: 130px;
   max-width: 1200px;
   padding: 10px;
   display: grid;
   grid-auto-flow: column;
   place-items: center;
-  column-gap: 1rem;
+  column-gap: 1.5rem;
   overflow-x: auto;
 }
 .scroller-item {
@@ -149,19 +151,21 @@ header {
   height: 80px;
   border: 2px solid var(--fondo_claro);
   border-radius: 50%;
-  overflow: hidden;
-  transition: all 500ms ease;
+  transition: all 300ms ease;
 }
+
+.capa h6 {
+  color: #e0e0e0;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
 .historias__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  transition: all 500ms ease;
-}
-.historias__img:hover {
-  transform: scale(1.15);
-  transition: all 0.5s;
+  transition: all 300ms ease;
 }
 
 .scroller::-webkit-scrollbar {
@@ -237,5 +241,32 @@ header {
     height: 335px;
     overflow: hidden;
     box-shadow: 0px 1px 4px -1px #0e0e0e;
+  }
+
+  .scroller-item {
+    overflow: hidden;
+  }
+
+  .capa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00105e9f;
+    transition: all 500ms ease-out;
+    text-align: center;
+    opacity: 0;
+  }
+
+  .scroller-item:hover > .capa {
+    opacity: 1;
+  }
+  .scroller-item:hover > .historias__img {
+    transform: scale(1.15);
+    transition: all 0.3s;
   }
 }
