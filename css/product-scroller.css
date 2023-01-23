@@ -1,7 +1,19 @@
-.container {
-  margin: 2rem auto;
+.products {
+  color: var(--blanco);
+  margin: 1rem auto;
   width: 98%;
   max-width: 1200px;
+}
+
+.title-products {
+  margin-top: 3rem;
+  margin-left: 10px;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 98%;
+
   box-shadow: 0 0 4px -1px #0e0e0e;
   box-shadow: 2px 2px 15px var(--lineas);
 
@@ -34,6 +46,7 @@
 }
 
 .product__price {
+  color: #0e0e0e;
   font-size: 1.5em;
   margin: 6px 0;
 }
@@ -43,4 +56,9 @@
 }
 .container::-webkit-scrollbar {
   display: none;
+}
+
+@media (min-width: 600px) {
+}
+@media (min-width: 900px) {
 }

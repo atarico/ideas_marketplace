@@ -73,6 +73,9 @@ header {
   border: none;
   background-color: transparent;
 }
+.menu__bars {
+  padding: 4px 10px;
+}
 /* ============================== toggle ================================== */
 /* -========================================================================================================================================================== */
 
@@ -260,6 +263,9 @@ header {
     transition: all 500ms ease-out;
     text-align: center;
     opacity: 0;
+  }
+  .capa h6 {
+    font-size: 1em;
   }
 
   .scroller-item:hover > .capa {
