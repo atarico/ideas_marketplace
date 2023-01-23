@@ -98,5 +98,7 @@
   border-radius: 6px;
   border: none;
   width: 3rem;
+  background: var(--fondo_claro);
   color: var(--blanco);
+  font-size: 1em;
 }
